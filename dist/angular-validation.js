@@ -499,7 +499,7 @@
                          * Default Valid/Invalid Message
                          */
                         if (!scope.messageId)
-                            element.after('<span></span>');
+                            element.after('<span class="error-messages"></span>');
 
                         /**
                          * Set custom initial validity
